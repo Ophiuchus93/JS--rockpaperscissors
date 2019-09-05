@@ -2,18 +2,30 @@ body {
   background: lightblue;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 
 .choices {
+  display: flex;
   height: 150px;
   width: 150px;
   border: 1px solid white;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
-  color: yellow;
+  
+  color: black;
+  text-align: center;
 }
 
 .select {
   color: black;
+  text-align: center;
 }
